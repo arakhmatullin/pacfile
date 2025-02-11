@@ -11,5 +11,5 @@ function FindProxyForURL(url, host) {
   if (dnsDomainIs(host,'.2ip.io')) {
     return PROXY
   }
-  return 'PROXY 172.29.172.1:3128';
-}s
+  return 'DIRECT';
+}
