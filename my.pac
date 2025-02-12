@@ -6,8 +6,8 @@ function FindProxyForURL(url, host) {
 //   if (host='2ip.io') {
 //     return PROXY
 //   }
-  if (dnsDomainIs(host,'youtube.com')) {
-    return PROXY
-  }
+//   if (dnsDomainIs(host,'youtube.com')) {
+//     return PROXY
+//   }
   return 'DIRECT';
 }
